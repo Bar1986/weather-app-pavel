@@ -1,0 +1,24 @@
+{
+  "name": "weather-app-pavel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.0.5",
+    "date": "^1.0.2",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2"
+  }
+}
