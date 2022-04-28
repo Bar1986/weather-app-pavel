@@ -14,8 +14,6 @@ const writeToFile = async(data) =>{
             throw new Error(err)
         }
         createDir()
-        //let dateFile = new Date()
-      //let file =   isFileExist() 
       let dateFile = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')
       
         // "2022-04-23 07:56:17"
